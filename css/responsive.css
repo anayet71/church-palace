@@ -1,0 +1,230 @@
+@media (max-width: 400px) {
+    .contact-btn{
+        width: 35%;
+    }
+    
+}
+@media (max-width:575.8px) {
+    .contact-btn {
+        width: 35%;
+        margin-left: 260px;
+        padding: 10px;
+    }
+
+    .banner-subtitle h1 {
+        font-size: 35px;
+    }
+
+    .banner-subtitle a {
+        padding: 10px;
+    }
+
+    .relevant-title {
+        font-size: 35px;
+    }
+
+    .relevant-item {
+        margin-top: 50px;
+    }
+
+    .relevant-head {
+        padding: 50px 0;
+    }
+
+    .pray-all-img {
+        padding-top: 20px;
+    }
+
+    .serve-sub-container {
+        padding: 0px 0px 50px 0;
+        margin: 50px;
+
+    }
+    .share-one {
+        margin-top: 50px;
+    }
+
+    .serve-one h1 {
+        font-size: 30px;
+    }
+
+    .serve-btn a {
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+
+    .serve-two {
+        display: none;
+    }
+    .subs {
+        display: block;
+    }
+
+    .middle-img {
+        /* position: absolute; */
+        width: 100%;
+        display: none;
+        /* Fixed from 'hidden' to 'none' */
+    }
+
+    .last-img {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .contact-btn {
+        width: 25%;
+        margin-left: 380px;
+        padding: 10px;
+    }
+
+    .banner-subtitle h1 {
+        font-size: 35px;
+    }
+
+    .banner-subtitle a {
+        padding: 10px;
+    }
+
+    .relevant-title {
+        font-size: 35px;
+    }
+
+    .relevant-item {
+        margin-top: 50px;
+    }
+
+    .relevant-head {
+        padding: 50px 0;
+    }
+    .share-one{
+        margin-bottom: 20px;
+    }
+    .pray-all-img {
+        padding-top: 50px;
+    }
+
+    .serve-sub-container {
+        padding: 0px 0px 50px 0;
+        margin: 0px 0px 50px 0;
+    }
+
+    .serve-one h1 {
+        font-size: 35px;
+    }
+
+    .input-email {
+        padding: 20px;
+    }
+
+    .subs {
+        padding: 20px;
+    }
+
+    .love-container {
+        padding: 0;
+    }
+
+    .middle-img {
+        display: none;
+    }
+
+    .last-img {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992.8px) {
+    .contact-btn {
+        width: 30%;
+        margin-left: 475px;
+    }
+
+    .banner-subtitle h1 {
+        font-size: 45px;
+    }
+
+    .love-container {
+        padding: 0;
+    }
+
+    .relevant-item {
+        margin-top: 50px;
+    }
+
+    .relevant-head {
+        padding: 50px 0;
+    }
+
+    .pray-all-img {
+        padding-top: 50px;
+    }
+
+    .serve-sub-container {
+        padding: 0px 0px 50px 0;
+        margin: 0px 0px 50px 0;
+    }
+
+    .serve-one h1 {
+        font-size: 35px;
+    }
+
+    .share-one {
+        margin-bottom: 40px;
+    }
+
+    .input-email {
+        padding: 20px;
+    }
+
+    .subs {
+        padding: 20px;
+    }
+
+    .middle-img {
+        /* position: absolute; */
+        width: 100%;
+        display: none;
+        /* Fixed from 'hidden' to 'none' */
+    }
+
+    .last-img {
+        margin-top: 20px;
+    }
+
+    .input-email {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .join-big-img {
+        /* width: 80%; */
+        height: 100%;
+    }
+
+    .input-email {
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1201px) and(max-width:1400px) {
+    .footer-btn {
+        display: flex;
+    }
+
+    .subs {
+        width: 20%;
+        padding: 0;
+    }
+}
+
+@media (min-width:1401px) {
+    .footer-btn {
+        display: flex;
+    }
+
+}

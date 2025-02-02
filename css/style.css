@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inter {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.bg-main {
+    background-color: black;
+}
+
+a {
+    display: inline-block;
+}
+
+.container a {
+    color: white !important
+}
+
+.nav-item {
+    padding: 0px 24px;
+}
+.nav-item a{
+    
+    color: white;
+}
+
+.navbar-padding {
+    padding-left: 120px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    background-color: #FFD2A4;
+    padding: 20px 48px;
+    border-radius: 12px;
+    color: black;
+}
+
+.contact-btn a {
+    text-decoration: none;
+    color: black !important
+}
+
+/*  .banner{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    
+ }
+ .banner-subtitle{
+    color: white;
+    padding: 120px 0px;
+  
+ }
+ .banner-subtitle .btn{
+    padding: 0;
+    margin: 50px 0;
+ }
+ .banner-subtitle p::after{
+    height: 5px;
+    width: 40px;
+    background-color: #FFD2A4;
+    
+ } */
+
+/* Banner start */
+.banner {
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    padding: 128px 0;
+}
+
+.banner-subtitle {
+    color: white;
+}
+
+.banner-subtitle h3 {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.banner-subtitle h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-top: 15px;
+}
+
+.banner-subtitle a {
+    text-decoration: none;
+    background-color: #FFD2A4;
+    padding: 20px 48px;
+    border-radius: 12px;
+    color: black !important;
+    margin: 56px 0 0px 0;
+}
+
+.banner-subtitle p {
+    padding-left: 50px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.banner-subtitle p::after {
+    content: '';
+    height: 3px;
+    width: 30px;
+    background-color: #FFD2A4;
+    position: absolute;
+    left: 0;
+    top: 45%;
+
+}
+
+
+/* Banner end */
+
+/* Relevant container start */
+#relevant {
+    margin-top: 120px;
+}
+
+.relevant-head {
+    padding-bottom: 64px;
+}
+
+.relevant-subtitle {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.relevant-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* .all-one{
+   
+ } */
+.relevant-item {
+    background-color: #FFF5EB;
+    padding: 80px 80px 60px 80px;
+    border-bottom: 16px solid #FFD2A4;
+}
+
+.relevant-item img {
+    background-color: #FFD2A4;
+    padding: 12px;
+    border-radius: 50%;
+    color: red;
+}
+
+.relevant-item h2 {
+    padding: 24px 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Relevant container end */
+
+/* Love start */
+.love-container {
+    padding-top: 125px;
+}
+
+.love-container .relevant-head {
+    padding-bottom: 0;
+}
+
+.love-container p {
+    padding: 15px 0 20px 0;
+}
+
+.love-container a {
+    text-decoration: none;
+    background-color: #FFD2A4;
+    padding: 20px 48px;
+    border-radius: 12px;
+    color: black !important;
+    overflow: hidden;
+
+}
+
+.pray-images {
+    position: relative;
+
+}
+
+.middle-img {
+    position: relative;
+    top: 40px;
+    right: -10px;
+}
+
+.celebrate-text {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    padding-top: 64px;
+    padding-bottom: 120px;
+}
+
+.celebrate-subtitle {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.celebrate-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.celebrate-text p {
+    color: #161722;
+}
+
+/* Love end */
+/* Benefit start  */
+.benefit-container {
+    padding-top: 120px;
+    background-color: #F5F2F0;
+}
+
+.benefit-container .relevant-title {
+    padding: 20px 0 60px 0;
+}
+
+.benefit-text {
+    display: flex;
+    justify-content: center;
+}
+
+/* ---------------------------------------- */
+.extra {
+    padding: 50px 0;
+}
+
+.item-one {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.item-one:hover .overlay {
+    height: 309px;
+}
+
+.item-one:hover .overlay p {
+    opacity: 1;
+    padding-top: 120px;
+    color: white;
+}
+
+.item-one:hover .overlay-head {
+    bottom: 200px
+}
+
+.overlay {
+    height: 0px;
+    width: 100%;
+    background: linear-gradient(to right, black, #00000020);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.overlay-head {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.overlay-head h2 {
+    color: white;
+    transition: 0.5s;
+    padding: 0px;
+}
+
+.overlay p {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* .overlay h2{
+    padding-top: 200px;
+}
+.overlay p{
+    opacity: 0;
+}
+.overlay:hover p{
+    opacity: 1;
+}
+.overlay:hover h2{
+    padding-top: 0;
+    transition: 0.5s;
+} */
+/* Benefit end  */
+
+/* Join start */
+.join-container {
+    padding-top: 120px;
+    /* overflow: hidden; */
+}
+
+.join-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+
+}
+
+/* --------- */
+.join-sub-text {
+    background-color: rgba(255, 245, 235, 1);
+    padding: 60px 90px 60px 90px;
+}
+
+.join-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.join-flex p:first-of-type {
+    color: rgba(165, 78, 43, 1);
+}
+
+.join-flex span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.join-sub-text h2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 16px 0;
+}
+
+.join-sub-text p {
+    color: rgba(22, 23, 34, 1);
+}
+
+.join-one {
+    display: flex;
+    gap: 15px;
+    font-weight: 500;
+
+}
+
+.join-two {
+    display: flex;
+    gap: 15px;
+    font-weight: 500;
+}
+
+.join-btn {
+    background-color: black;
+    padding: 24px 64px;
+    border-radius: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(165, 78, 43, 1);
+    /* Ensure color is distinguishable */
+}
+
+.join-big-img {
+    width: 100%;
+    height: 100%;
+}
+
+.join-view-more {
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+}
+
+/* Join end */
+
+/* serve start  */
+.serve-container {
+    background-image: url(../images/Background.jpg);
+    margin-top: 130px;
+}
+
+.serve-sub-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 72px 48px 72px 48px;
+    background-color: white;
+    margin: 128px 366px;
+    border-bottom: 16px solid rgba(255, 210, 164, 1);
+
+}
+
+
+
+.serve-one h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.serve-btn a {
+    padding: 24px 64px;
+    border-radius: 16px;
+    background-color: rgba(255, 210, 164, 1);
+    text-decoration: none;
+    color: black !important
+}
+
+/* serve end  */
+
+/* Share start */
+.share-content{
+    padding-bottom: 120px;
+}
+.share-header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.share-text {
+    padding-top: 125px;
+    padding-bottom: 60px;
+}
+
+.share-subtitle {
+
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.share-head-title {
+
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.share-one {
+    text-align: left;
+    background-color: #FFF5EB;
+    padding: 48px 32px;
+    position: relative;
+}
+
+.share-one::after {
+    content: '';
+    height: 14px;
+    width: 0%;
+    background-color: #FFD0A0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.share-one:hover::after {
+    opacity: 1;
+    transition: 0.5s;
+    width: 100%;
+
+}
+
+.share-title {
+    color: #DC9853;
+    font-weight: 600;
+}
+
+.share-one h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+
+.share-one p:nth-of-type(2) {
+    color: #161722;
+}
+
+.share-details {
+    padding-top: 50px;
+
+}
+
+.share-details p {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+/* Share end */
+
+/* Footer start  */
+.footer{
+    background-color: black;
+    padding: 64px;
+    color: white;
+}
+.footer-one img{
+    padding-bottom: 15px;
+}
+.address{
+    padding-top: 32px;
+}
+.address p{
+    margin-bottom: 10px;
+}
+.footer-two h6{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.footer-two p{
+    font-size: 12px;
+    padding-top: 15px;
+   
+}
+.footer-three{
+    padding-left: 50px;
+}
+.footer-four{
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.footer-four h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-btn{
+
+    /* display: flex; */
+}
+.footer-four input{
+    padding:24px 60px 24px 20px ;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.footer-four button{
+    padding:24px 30px 24px 20px ;
+
+}
+.subs{
+    padding: 25px 40px;
+    border-radius: 12px;
+    background-color: #FFD2A4;
+    color: black;
+    /* position: absolute; */
+    right: 10px;
+    bottom: 2px;
+
+}
+/* Footer end  */
